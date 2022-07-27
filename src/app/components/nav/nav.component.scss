@@ -1,0 +1,23 @@
+.lista {
+    list-style-type: none;
+    display: flex;
+    background-color: var(--violeta);
+
+}
+
+.lista-item{
+    flex-grow: 1;
+}
+
+.lista-item-link{
+    padding: 8px 0;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--blanco);
+}
+
+.lista-item-link:hover{
+    text-decoration: underline;
+}
